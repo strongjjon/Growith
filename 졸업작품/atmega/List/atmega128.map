@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Yaw_angle                                                                         R4,R5        2
+Pitch_angle                                                                       R6,R7        2
+PcData                                                                            R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+Servo_Yaw                                                                         0x00089     10
+Servo_Pitch                                                                       0x00093     13
+usart0_rx_isr                                                                     0x000A0      2
+Set_INI                                                                           0x000A2      9
+main                                                                              0x000AB     76
